@@ -1,7 +1,4 @@
 const axios = require('axios');
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-const dom = new JSDOM()
 
 exports.homeRoutes = (req, res) => {
     console.log(req.url)
